@@ -1,9 +1,0 @@
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Debug\QlikSenseTask.exe.config
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Debug\QlikSenseTask.exe
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Debug\QlikSenseTask.pdb
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Debug\Newtonsoft.Json.dll
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Debug\Newtonsoft.Json.pdb
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Debug\Newtonsoft.Json.xml
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\obj\Debug\QlikSenseTask.exe
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\obj\Debug\QlikSenseTask.pdb
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\obj\Debug\QlikSenseTask.csprojResolveAssemblyReference.cache
