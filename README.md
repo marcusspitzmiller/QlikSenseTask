@@ -1,21 +1,30 @@
 # QlikSenseTask
-QlikSenseTasks=
+QlikSenseTask
 
 QlikSenseTask.exe (QlikSenseTask.zip) is a tool for starting Qlik Sense tasks from the command line.  Why QlikSenseTask?  There will be many cases where QlikView data models and QVDs need to be loaded in QlikSense applications.  This utility allows QlikView Publisher (and other schedulers) to call QlikSense tasks and load data into Qlik Sense apps.
-Usage
 
-Call QlikSenseTask.exe with the following parameters:
+#h2 Usage
+
+![Usage](https://github.com/marcusspitzmiller/QlikSenseTask/blob/master/Screenshots/usage.JPG)
+
+#h3 Call QlikSenseTask.exe with the following parameters:
 -proxy:<proxyserver> - URL of Qlik Sense proxy
 -task:<taskname> - name of reload task to execute.  Put task names with spaces in quotes.
 -wait:<seconds> - number of seconds the utility should wait for task to execute before timing out.
-Global Settings:
+
+#h3 Global Settings:
 Use config.txt to set any of these parameters at a global level.  The command line values override the settings in config.txt.
 For example, use config.txt to set the -proxy and -wait values at a global level so that each time the executable is called, these values to not need to be set from the command line.
-With QlikView Publisher
+
+#h2 With QlikView Publisher
 With QlikSenseTask,exe, QlikView Publisher can be used to call reload tasks in Qlik Sense.  Below, QlikSenseTask.exe is set up as a supporting task in Publisher which reloads a task in Qlik Sense named "Reload Sales Dashboard" and waits 90 seconds before terminating.
+
+![Pub Dependancy](https://github.com/marcusspitzmiller/QlikSenseTask/blob/master/Screenshots/publisher_dependancy.JPG)
 
  
 This supporting task is triggered on the success of the reloaded data model in QlikView.  Not pictured, the script in the Qlik Sense application binary loads the prepared QVW or QVD files.
+
+![Pub Task](https://github.com/marcusspitzmiller/QlikSenseTask/blob/master/Screenshots/publisher_task.JPG)
 
  
 Installation
