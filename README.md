@@ -28,12 +28,11 @@ This supporting task is triggered on the success of the reloaded data model in Q
 
  
 Installation
-Download and unzip the QlikSenseTask zip below.  Place in a directory accessible to QlikView Publisher (or any other scheduling tool).
-Modify config.txt to point to the Qlik Sense proxy.
  
 Qlik Sense 1.0.X - QlikSenseTask.zip
 Qlik Sense 1.1 - QlikSenseTask-1.1.zip
-Note: two different versions as the task statuses changed.
+Qlik Sense 2.X - QlikSenseTask-2.X.zip
+Note: three different versions as the task statuses changed.
  
 Security
 The current version of QlikSenseTask.exe only supports NTLM authentication.  In the content of QlikView Publisher, this means that the service running Publisher will be the account to authenticate to Qlik Sense.  (Note: It is possible but not yet implemented to use SSL certificates as an authentication mechanism.  If there is a need, please let me know.)
