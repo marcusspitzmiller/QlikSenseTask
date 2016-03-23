@@ -1,0 +1,9 @@
+Time, LogLevel, Message
+2016_03_14_03_26_19,Information,"Task: Reload task of test"
+2016_03_14_03_26_25,Information,"Proxy: https://usral-msi"
+2016_03_14_03_26_26,Information,"Wait: 30 seconds"
+2016_03_14_03_26_46,Error,"System.Exception: Couldnt connect to the server at https://usral-msi , check that the Proxy and QRS are running.
+   at QVnextDemoBuilder.QRSNTLMWebClient..ctor(String QRSserverURL, Int32 requesttimeout) in c:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\QRSNTLMWebClient.cs:line 36
+   at QlikSenseJSONObjects.QlikSenseJSONHelper..ctor(String url, Int32 timeout, Logger logger) in c:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\QlikSenseJSONHelper.cs:line 25
+   at QlikSenseTask.Program.Main(String[] args) in c:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\Program.cs:line 122"
+2016_03_14_03_26_52,Information,"Returning Errorlevel 8"

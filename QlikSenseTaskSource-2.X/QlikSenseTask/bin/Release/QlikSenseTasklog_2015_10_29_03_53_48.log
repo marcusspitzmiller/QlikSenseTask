@@ -1,0 +1,9 @@
+Time, LogLevel, Message
+2015_10_29_03_53_48,Information,"Task: test"
+2015_10_29_03_53_48,Information,"Proxy: https://usral-msi"
+2015_10_29_03_53_48,Information,"Wait: 600 seconds"
+2015_10_29_03_53_59,Information,"Task is starting..."
+2015_10_29_03_53_59,Error,"System.Exception: Bad Request: Cannot find a task with the following name: test
+   at QlikSenseJSONObjects.QlikSenseJSONHelper.StartTaskByName(String taskname, Boolean synchronous) in C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\QlikSenseJSONHelper.cs:line 197
+   at QlikSenseTask.Program.Main(String[] args) in C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\Program.cs:line 125"
+2015_10_29_03_53_59,Information,"Returning Errorlevel 8"

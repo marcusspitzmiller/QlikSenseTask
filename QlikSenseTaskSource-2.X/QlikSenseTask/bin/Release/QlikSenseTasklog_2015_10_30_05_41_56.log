@@ -1,0 +1,8 @@
+Time, LogLevel, Message
+2015_10_30_05_41_56,Information,"Task: Reload task of test"
+2015_10_30_05_41_56,Information,"Proxy: https://usral-msi"
+2015_10_30_05_41_56,Information,"Wait: 60 seconds"
+2015_10_30_05_42_02,Information,"Task is starting..."
+2015_10_30_05_42_33,Information,"Task is running..."
+2015_10_30_05_42_33,Information,"Task finished with status: Success"
+2015_10_30_05_42_33,Information,"Returning Errorlevel 0"

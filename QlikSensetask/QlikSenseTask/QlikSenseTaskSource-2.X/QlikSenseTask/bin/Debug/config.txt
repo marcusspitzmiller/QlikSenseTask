@@ -1,0 +1,2 @@
+-proxy:https://usral-msi
+-wait:1001
