@@ -32,7 +32,7 @@ namespace SenseBuilder
             }
             catch (Exception ex)
             {
-                throw new Exception("Couldnt connect to the QRS at " + QRSserverURL + " , check the QRS is running at this address");
+                throw new Exception("Couldnt connect to the QRS at " + QRSserverURL + " , check the QRS is running at this address.  Message: " + ex.Message);
             }
         }
 

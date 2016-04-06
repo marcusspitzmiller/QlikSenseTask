@@ -16,7 +16,7 @@ namespace QlikSenseTask
 
     class Program
     {
-        private QlikSenseJSONHelper qs;
+        //private QlikSenseJSONHelper qs;
 
         static void Main(string[] args)
         {
@@ -71,6 +71,9 @@ namespace QlikSenseTask
                         Console.WriteLine("");
                         Console.WriteLine("Optionally define any or all parameters in config.txt");
                         Console.WriteLine("  (to be used globally for all tasks)");
+                        Console.WriteLine("");
+                        Console.WriteLine("Example usage:");
+                        Console.WriteLine("qliksensetask -task:\"Reload License Monitor\" -proxy:https://localhost -wait:600");
                         Console.WriteLine("");
                        // Console.WriteLine("-debug                         optional");
                        // Console.WriteLine("   omit -wait to return immediately");

@@ -33,7 +33,7 @@ namespace QVnextDemoBuilder
             }
             catch (Exception ex)
             {
-                throw new Exception("Couldnt connect to the server at " + QRSserverURL + " , check that the Proxy and QRS are running.");
+                throw new Exception("Couldnt connect to the server at " + QRSserverURL + " , check that the Proxy and QRS are running.  Message: " + ex.Message);
             }
         }
 

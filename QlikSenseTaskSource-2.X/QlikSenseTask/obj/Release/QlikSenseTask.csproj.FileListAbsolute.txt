@@ -27,3 +27,11 @@ D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\b
 D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\Newtonsoft.Json.pdb
 D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\Newtonsoft.Json.xml
 D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.csprojResolveAssemblyReference.cache
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.exe.config
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.exe
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.pdb
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.exe
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.pdb
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\Newtonsoft.Json.pdb
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\Newtonsoft.Json.xml
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.csprojResolveAssemblyReference.cache

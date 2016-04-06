@@ -49,9 +49,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QlikSenseJSONHelper.cs" />
     <Compile Include="QlikSenseJSONObjects.cs" />
-    <Compile Include="QlikSenseLoopAndReduce.cs" />
-    <Compile Include="QRSNTLMWebClient.cs" />
-    <Compile Include="QRSwebclient.cs" />
+    <Compile Include="QRSNTLMWebClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QRSwebclient.cs">
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

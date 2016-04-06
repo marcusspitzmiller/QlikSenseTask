@@ -59,7 +59,7 @@ namespace QlikSenseJSONObjects
             queries.Add("filter", "name eq '" + taskname + "'");
 
             //find the app
-            string taskid = "";
+            //string taskid = "";
             string taskstring = qrsClient.Get("/qrs/task", queries);
             List<QlikSenseTaskResult> tasks = (List<QlikSenseTaskResult>)JsonConvert.DeserializeObject<List<QlikSenseTaskResult>>(taskstring);
 
@@ -78,7 +78,7 @@ namespace QlikSenseJSONObjects
             //queries.Add("filter", "name eq '" + taskname + "'");
 
             //find the app
-            string taskid = "";
+            //string taskid = "";
             string taskstring = qrsClient.Get("/qrs/executionresult/"+taskexecutionguid.value, queries);
             List<QlikSenseTaskResult> tasks = (List<QlikSenseTaskResult>)JsonConvert.DeserializeObject<List<QlikSenseTaskResult>>(taskstring);
 
@@ -179,7 +179,7 @@ namespace QlikSenseJSONObjects
 
         public QlikSenseTaskExecutionGuid StartTaskByName(string taskname, bool synchronous)
         {
-            int retval = 0;
+            //int retval = 0;
 
             string path = "/qrs/task/start";
             if (synchronous) path += "/synchronous";
