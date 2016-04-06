@@ -12,6 +12,8 @@ QlikSenseTask.exe (QlikSenseTask.zip) is a tool for starting Qlik Sense tasks fr
 -task:<taskname> - name of reload task to execute.  Put task names with spaces in quotes.
 -wait:<seconds> - number of seconds the utility should wait for task to execute before timing out.
 
+Example: qliksensetask -task:"Reload License Monitor" -proxy:https://localhost -wait:600"
+
 ### Global Settings:
 Use config.txt to set any of these parameters at a global level.  The command line values override the settings in config.txt.
 For example, use config.txt to set the -proxy and -wait values at a global level so that each time the executable is called, these values to not need to be set from the command line.
