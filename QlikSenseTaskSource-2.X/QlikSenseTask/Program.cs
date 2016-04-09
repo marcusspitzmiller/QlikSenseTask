@@ -33,7 +33,8 @@ namespace QlikSenseTask
 
             //defaults
             string proxy = "";
-            Int32 timeout = 60*1000;
+            Int32 timeout = 600;
+            Int32 poll = 30;
             string task = "";
             bool synchronous = true;
 
@@ -60,8 +61,9 @@ namespace QlikSenseTask
                     case "/?":
                         Console.WriteLine("Usage:");
                         Console.WriteLine("-proxy:<URL address of proxy>  required example https://server.company.com");
-                        Console.WriteLine(@"-task:<taskname>               required example ""test 123""");
-                        Console.WriteLine("-wait:<# seconds to wait>      optional example 30");
+                        Console.WriteLine(@"-task:<taskname>               required, example ""test 123""");
+                        Console.WriteLine("-wait:<# seconds to wait>      optional, default 600");
+                        Console.WriteLine("-poll:<polling frequency in # seconds>      optional, default 30");
                         Console.WriteLine("   omit -wait to return immediately");
                         Console.WriteLine("   use -wait to wait for the task to finish");
                         Console.WriteLine("     Return Codes:");
@@ -94,6 +96,9 @@ namespace QlikSenseTask
                         timeout = Convert.ToInt32(param[1]);
                         
                         break;
+                    case "-poll":
+                        poll = Convert.ToInt32(param[1]);
+                        break;
                     case "-task":
                         task = param[1];
                         logger.Log(LogLevel.Information, "Task: " + task);
@@ -111,7 +116,8 @@ namespace QlikSenseTask
 
             logger.Log(LogLevel.Information, "Proxy: " + proxy);
             logger.Log(LogLevel.Information, "Wait: " + timeout + " seconds");
-            
+            logger.Log(LogLevel.Information, "Poll: " + poll + " seconds");
+
             if (proxy == "" || task == "")
             {
                 logger.Log(LogLevel.Fatal, "Proxy or Task undefined");
@@ -135,7 +141,7 @@ namespace QlikSenseTask
                 while((status == TaskStatus.NeverStarted || status == TaskStatus.Queued || 
                       status == TaskStatus.Retrying || status == TaskStatus.Started || status == TaskStatus.Triggered) && stopwatch.Elapsed.Seconds < timeout)
                 {
-                    Thread.Sleep(30000);    //wait 30 seconds and try again
+                    Thread.Sleep(poll * 1000);    //wait 30 seconds and try again
 
                     logger.Log(LogLevel.Information, "Task is running...");
                     status = (TaskStatus)qs.GetTaskStatusByName(task);   //1 is running, 3 is success
