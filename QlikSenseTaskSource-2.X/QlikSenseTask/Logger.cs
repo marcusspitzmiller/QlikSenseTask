@@ -30,11 +30,13 @@ namespace MyLogger
 
         
 
-        public void Start()
+        public void Start(string task, string logpath)
         {
             DateTime d = DateTime.Now;
-
-            sLogFile = "QlikSenseTasklog_" + d.ToString("yyyy_MM_dd_hh_mm_ss") + ".log";
+            Boolean dirtest = Directory.Exists(logpath);
+            Directory.CreateDirectory(logpath);         
+            
+            sLogFile = logpath + "\\" + task + "_" + d.ToString("yyyy_MM_dd_hh_mm_ss") + ".log";
             
             file = new System.IO.StreamWriter(sLogFile);
 
@@ -70,6 +72,26 @@ namespace MyLogger
         {
             file.Flush();
             return Path.GetFullPath(sLogFile);
+        }
+        public void CleanLogFiles(string logpath, Int32 deletelog)
+        {
+            DirectoryInfo historyDi = new DirectoryInfo(logpath);
+
+            //remove any history files greater than 90 days
+            //DateTime from_date = DateTime.Now.AddMonths(-3);
+            DateTime from_date = DateTime.Now.AddDays(deletelog);
+            List<FileInfo> historyFileInfoList = historyDi.GetFiles().Where(file => file.LastWriteTime < from_date).ToList<FileInfo>();
+            foreach (FileInfo historyFile in historyFileInfoList)
+            {
+                string historytemp = historyFile.Extension;
+                if (historyFile.Extension == ".log")
+                {
+                    Log(LogLevel.Information, "Deleting Log File: " + historyFile.Name);
+                    string historytemp2 = historyFile.FullName;
+                    DateTime historytemp3 = historyFile.LastWriteTime;
+                    historyFile.Delete();
+                }
+            }
         }
     }
 }

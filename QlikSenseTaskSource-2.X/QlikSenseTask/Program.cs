@@ -23,19 +23,22 @@ namespace QlikSenseTask
             //usage****
             //-proxy:https://usral-msi  -timeout:10000 -task:"test123" -wait
             //***
-            Console.WriteLine("Use at your own risk.  Created by Marcus Spitzmiller.");
-            Console.WriteLine("");
+            //Console.WriteLine("Use at your own risk.  Created by Marcus Spitzmiller.");
+            //Console.WriteLine("");
 
-            Logger logger = new Logger();
-            logger.Start();
-            logger.SetLogLevel(LogLevel.Debug);
-
+            //Logger logger = new Logger();
+            //logger.Start();
+            //logger.SetLogLevel(LogLevel.Debug);
+            string tasklogtxt = "";
 
             //defaults
             string proxy = "";
             Int32 timeout = 600;
             Int32 poll = 30;
+            Int32 deletelog = -90;
             string task = "";
+            string logpath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+               
             bool synchronous = true;
 
             //global settings from config.txt
@@ -60,10 +63,12 @@ namespace QlikSenseTask
                     case "-?":
                     case "/?":
                         Console.WriteLine("Usage:");
-                        Console.WriteLine("-proxy:<URL address of proxy>  required example https://server.company.com");
-                        Console.WriteLine(@"-task:<taskname>               required, example ""test 123""");
-                        Console.WriteLine("-wait:<# seconds to wait>      optional, default 600");
-                        Console.WriteLine("-poll:<polling frequency in # seconds>      optional, default 30");
+                        Console.WriteLine("-proxy:<URL address of proxy>                required example https://server.company.com");
+                        Console.WriteLine(@"-task:<taskname>                             required, example ""test 123""");
+                        Console.WriteLine("-poll:<polling frequency in # seconds>       optional, default 30");
+                        Console.WriteLine("-log:<full path of log location>             optional, default exe directory");
+                        Console.WriteLine("-deletelog:<# of days to keep of log files>  optional, default -90 days");
+                        Console.WriteLine("-wait:<# seconds to wait>                    optional, default 600");
                         Console.WriteLine("   omit -wait to return immediately");
                         Console.WriteLine("   use -wait to wait for the task to finish");
                         Console.WriteLine("     Return Codes:");
@@ -75,7 +80,7 @@ namespace QlikSenseTask
                         Console.WriteLine("  (to be used globally for all tasks)");
                         Console.WriteLine("");
                         Console.WriteLine("Example usage:");
-                        Console.WriteLine("qliksensetask -task:\"Reload License Monitor\" -proxy:https://localhost -wait:600");
+                        Console.WriteLine("qliksensetask -task:\"Reload License Monitor\" -proxy:https://localhost -wait:600 -poll:10 -log:\"e:\\log\" -deletelog:-30 ");
                         Console.WriteLine("");
                        // Console.WriteLine("-debug                         optional");
                        // Console.WriteLine("   omit -wait to return immediately");
@@ -101,30 +106,53 @@ namespace QlikSenseTask
                         break;
                     case "-task":
                         task = param[1];
-                        logger.Log(LogLevel.Information, "Task: " + task);
+                        //logger.Log(LogLevel.Information, "Task: " + task);
                         
                         break;
+                    case "-log":
+                        logpath = "";
+                        for (int l = 1; l < param.Length; l++)
+                        {
+                            logpath += param[l];
+                            if (l < param.Length - 1) logpath += ":"; //put back the colon
+                        }
+                        break;
+                    case "-deletelog":
+                        deletelog = Convert.ToInt32(param[1]);
+                        break;
                     default:
-                        logger.Log(LogLevel.Information, "Unrecognized: " + param[0]);
+                        tasklogtxt = "Unrecognized: " + param[0];
+                        //logger.Log(LogLevel.Information, "Unrecognized: " + param[0]);
                         
                         break;
                         
                 }
 
             }
+                      
+            Logger logger = new Logger();
+            
+            logger.Start(task, logpath);
+            logger.SetLogLevel(LogLevel.Debug);
 
-
+            logger.Log(LogLevel.Information, "Task: " + task);
             logger.Log(LogLevel.Information, "Proxy: " + proxy);
             logger.Log(LogLevel.Information, "Wait: " + timeout + " seconds");
             logger.Log(LogLevel.Information, "Poll: " + poll + " seconds");
-
+            logger.Log(LogLevel.Information, "Log: " + logpath);
+            logger.Log(LogLevel.Information, "Delete Log: " + deletelog + " days");
+            if (tasklogtxt.Length > 0)
+            {
+                logger.Log(LogLevel.Information, tasklogtxt);
+            }
+            logger.CleanLogFiles(logpath, deletelog);
             if (proxy == "" || task == "")
             {
                 logger.Log(LogLevel.Fatal, "Proxy or Task undefined");
                 
                 Environment.Exit(4);
             }
-
+            
             int retval = 0;
             try
             {
