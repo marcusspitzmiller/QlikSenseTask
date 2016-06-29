@@ -37,7 +37,7 @@ Qlik Sense 2.X - QlikSenseTask-2.X.zip
 Note: three different versions as the task statuses changed.
  
 Security
-The current version of QlikSenseTask.exe only supports NTLM authentication.  In the content of QlikView Publisher, this means that the service running Publisher will be the account to authenticate to Qlik Sense.  (Note: It is possible but not yet implemented to use SSL certificates as an authentication mechanism.  If there is a need, please let me know.)
+The current version of QlikSenseTask.exe only supports NTLM authentication.  In the context of QlikView Publisher, this means that the service running Publisher will be the account to authenticate to Qlik Sense.  (Note: It is possible but not yet implemented to use SSL certificates as an authentication mechanism.  If there is a need, please let me know.)
 
 The user that calls Qlik Sense needs to have access to the task.  The simplest way to achieve this is to make the user a ContentAdmin in the Qlik Sense QMC.
  
