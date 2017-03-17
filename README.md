@@ -34,7 +34,9 @@ Installation
 Qlik Sense 1.0.X - QlikSenseTask.zip
 Qlik Sense 1.1 - QlikSenseTask-1.1.zip
 Qlik Sense 2.X - QlikSenseTask-2.X.zip
-Note: three different versions as the task statuses changed.
+Qlik Sense 3.X - QlikSenseTask-3.X.zip 
+Note: 2.X is the same as 3.X, no changes.  You can upgrade but it is totally the same.  People were wondering if 2.X worked with 3.X, so this removes that doubt.
+
  
 Security
 The current version of QlikSenseTask.exe only supports NTLM authentication.  In the context of QlikView Publisher, this means that the service running Publisher will be the account to authenticate to Qlik Sense.  (Note: It is possible but not yet implemented to use SSL certificates as an authentication mechanism.  If there is a need, please let me know.)

@@ -1,0 +1,8 @@
+Time, LogLevel, Message
+2014_12_15_04_27_42,Information,"Task: Reloadtask of Sales Dashboard"
+2014_12_15_04_27_42,Information,"Proxy: https://qtarchlabus04"
+2014_12_15_04_27_42,Information,"Wait: 90 seconds"
+2014_12_15_04_27_44,Information,"Task is starting..."
+2014_12_15_04_28_16,Information,"Task is running..."
+2014_12_15_04_28_16,Information,"Task finished with status: 3"
+2014_12_15_04_28_16,Information,"Returning Errorlevel 0"
