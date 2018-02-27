@@ -6,16 +6,22 @@ using System.Net;
 using System.Text;
 using System.Security.Principal;
 
+using MyLogger;
+
 namespace QVnextDemoBuilder
 {
-    public class QRSNTLMWebClient
+    class QRSNTLMWebClient      //public
     {
         private readonly CookierAwareWebClient _client;
         private readonly NameValueCollection _queryStringCollection;
         private string serverURL;
+        private Logger logger;
 
-        public QRSNTLMWebClient(string QRSserverURL, Int32 requesttimeout)
+        public QRSNTLMWebClient(string QRSserverURL, Int32 requesttimeout, Logger logger)
         {
+            this.logger = logger;
+
+            logger.Log(LogLevel.Debug, "Creating CookierAwareWebClient...");
             _client = new CookierAwareWebClient { Encoding = Encoding.UTF8 };
             _client.UseDefaultCredentials = true;
             _client.Timeout = requesttimeout;
@@ -29,7 +35,9 @@ namespace QVnextDemoBuilder
             //do a simple first GET to set cookies for subsequent actions (otherwise POST commands wont work)
             try
             {
+                logger.Log(LogLevel.Debug, "calling /qrs/about");
                 string resp = Get("/qrs/about");
+                logger.Log(LogLevel.Debug, resp);
             }
             catch (Exception ex)
             {
@@ -184,7 +192,10 @@ namespace QVnextDemoBuilder
 
         public string Get(string endpoint, Dictionary<string, string> queries)
         {
+            logger.Log(LogLevel.Debug, "setting headers");
             SetHeaders();
+
+            logger.Log(LogLevel.Debug, "constructing query string");
             NameValueCollection queryStringCollection = new NameValueCollection(_queryStringCollection);
             if (queries != null)
             {
@@ -196,11 +207,14 @@ namespace QVnextDemoBuilder
 
             try
             {
+                logger.Log(LogLevel.Debug, "calling " + serverURL + endpoint);
+                if(_client == null) logger.Log(LogLevel.Debug, "client is null for some reason..");
                 string response = _client.DownloadString(serverURL + endpoint);
                 return response;
             }
             catch (WebException ex)
             {
+                logger.Log(LogLevel.Debug, "error: " + ex.Message);
                 throw new Exception(ParseWebException(ex));
             }
         }

@@ -89,7 +89,17 @@ namespace MyLogger
                     Log(LogLevel.Information, "Deleting Log File: " + historyFile.Name);
                     string historytemp2 = historyFile.FullName;
                     DateTime historytemp3 = historyFile.LastWriteTime;
-                    historyFile.Delete();
+                    try
+                    {
+                        historyFile.Delete();
+                    }
+                    catch (Exception e)
+                    {
+                        Log(
+                            LogLevel.Error,
+                            String.Format("Failed to delete log file: {0}\nError Message: {1}", historyFile.Name, e.Message)
+                        );
+                    }
                 }
             }
         }
