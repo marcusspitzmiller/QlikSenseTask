@@ -36,7 +36,7 @@ namespace MyLogger
             Boolean dirtest = Directory.Exists(logpath);
             Directory.CreateDirectory(logpath);         
             
-            sLogFile = logpath + "\\" + task + "_" + d.ToString("yyyy_MM_dd_hh_mm_ss") + ".log";
+            sLogFile = logpath + "\\" + task + "_" + d.ToString("yyyy_MM_dd_HH_mm_ss") + ".log";
             
             file = new System.IO.StreamWriter(sLogFile);
 
@@ -59,7 +59,7 @@ namespace MyLogger
             {
                 DateTime d = DateTime.Now;
 
-                string line = d.ToString("yyyy_MM_dd_hh_mm_ss") + ",";
+                string line = d.ToString("yyyy_MM_dd_HH_mm_ss") + ",";
                 line += loglevel.ToString() + ",";
                 line += (char)34 + message + (char)34;
 
