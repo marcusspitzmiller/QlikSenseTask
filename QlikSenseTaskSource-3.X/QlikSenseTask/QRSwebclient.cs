@@ -18,10 +18,12 @@ namespace SenseBuilder
 
         public QRSWebClient(string QRSserverURL)
         {
+            
             _client = new CertificateWebClient { Encoding = Encoding.UTF8 };
             _client.Certificate = GetClientCertificate();
             _queryStringCollection = new NameValueCollection { { "xrfkey", "ABCDEFG123456789" } };
             ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             serverURL = QRSserverURL;
 			
             ExecuteAs = "UserDirectory=" + Environment.UserDomainName + "; UserId=" + Environment.UserName;
@@ -200,6 +202,8 @@ namespace SenseBuilder
 
         private void SetHeaders()
         {
+
+
             _client.Headers.Clear();
             _client.Headers.Add("Accept-Charset", "utf-8");
             _client.Headers.Add("Accept", "application/json");

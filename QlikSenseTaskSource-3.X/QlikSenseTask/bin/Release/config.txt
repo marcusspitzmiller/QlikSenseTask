@@ -1,2 +1,2 @@
--proxy:https://uschi-msi4
+-proxy:https://qtarchlabus04
 -wait:600

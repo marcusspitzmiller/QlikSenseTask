@@ -21,10 +21,12 @@ namespace QlikSenseJSONObjects
         public QlikSenseJSONHelper(string url, Int32 timeout, Logger logger)
         {
             this.url = url;
-            
-            qrsClient = new QRSNTLMWebClient(url, timeout);
-
             this.logger = logger;
+
+            logger.Log(LogLevel.Debug, "Creating web connection...");
+            qrsClient = new QRSNTLMWebClient(url, timeout, logger);
+
+            
 
         }
 

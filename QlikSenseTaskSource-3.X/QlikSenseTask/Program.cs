@@ -156,6 +156,7 @@ namespace QlikSenseTask
             int retval = 0;
             try
             {
+                logger.Log(LogLevel.Information, "Creating connection...");
                 QlikSenseJSONHelper qs = new QlikSenseJSONHelper(proxy, 60000, logger); //http timeout 60 seconds
 
                 logger.Log(LogLevel.Information, "Task is starting...");
