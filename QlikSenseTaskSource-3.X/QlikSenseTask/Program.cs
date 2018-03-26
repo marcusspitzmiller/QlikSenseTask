@@ -176,7 +176,7 @@ namespace QlikSenseTask
                     status = (TaskStatus)qs.GetTaskStatusByName(task);   //1 is running, 3 is success
                 }
 
-                if (stopwatch.Elapsed.Seconds > timeout)
+                if (stopwatch.Elapsed.Seconds > timeout && timeout > 0)
                 {
                     logger.Log(LogLevel.Information, "Task timeout with status: " + status.ToString());
                 }
@@ -187,7 +187,7 @@ namespace QlikSenseTask
                 stopwatch.Stop();
                 
 
-                if (status == TaskStatus.Success)    //success
+                if (status == TaskStatus.Success || timeout == 0)    //success or async execution and we don't care about the result
                 {
                     
                 }
