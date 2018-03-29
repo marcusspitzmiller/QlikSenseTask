@@ -38,4 +38,3 @@ D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\ob
 D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\obj\Release\QlikSenseTask.pdb
 D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\bin\Release\QlikSenseTask.exe
 D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\bin\Release\QlikSenseTask.pdb
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\obj\Release\QlikSenseTask.csprojResolveAssemblyReference.cache
