@@ -30,3 +30,8 @@ D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\ob
 D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\bin\Debug\QlikSenseTask.exe.config
 D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\obj\Debug\QlikSenseTask.exe
 D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\obj\Debug\QlikSenseTask.pdb
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\bin\Debug\QlikSenseTask.exe
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\bin\Debug\QlikSenseTask.pdb
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\bin\Debug\Newtonsoft.Json.pdb
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\obj\Debug\QlikSenseTask.csprojResolveAssemblyReference.cache

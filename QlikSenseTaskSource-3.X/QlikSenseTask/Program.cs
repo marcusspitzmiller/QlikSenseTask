@@ -162,6 +162,13 @@ namespace QlikSenseTask
                 logger.Log(LogLevel.Information, "Task is starting...");
                 QlikSenseTaskExecutionGuid taskexecutionguid = qs.StartTaskByName(task, synchronous);
 
+                if (timeout == 0)
+                {
+                    logger.Log(LogLevel.Information, "Task submitted asynchronously...");
+                    logger.End();
+                    Environment.Exit(retval);
+                }
+
                 Stopwatch stopwatch = new Stopwatch();
                 stopwatch.Start();
 
@@ -187,7 +194,7 @@ namespace QlikSenseTask
                 stopwatch.Stop();
                 
 
-                if (status == TaskStatus.Success)    //success
+                if (status == TaskStatus.Success)    //success or async execution and we don't care about the result
                 {
                     
                 }
