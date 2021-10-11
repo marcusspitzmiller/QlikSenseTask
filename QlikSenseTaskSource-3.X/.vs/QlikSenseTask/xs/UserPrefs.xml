@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{0760E516-3DB9-4611-B3AB-2FC1F3C0F928}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QlikSenseTask/QRSwebclient.cs">
+    <Files>
+      <File FileName="QlikSenseTask/QRSwebclient.cs" Line="23" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QlikSenseTask" expanded="True">
+            <Node name="QlikSenseTask" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="QRSwebclient.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.QlikSenseTask PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

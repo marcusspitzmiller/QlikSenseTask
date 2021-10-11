@@ -1,40 +1,47 @@
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Release\QlikSenseTask.exe.config
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Release\QlikSenseTask.exe
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Release\QlikSenseTask.pdb
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Release\Newtonsoft.Json.dll
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Release\Newtonsoft.Json.pdb
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\bin\Release\Newtonsoft.Json.xml
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\obj\Release\QlikSenseTask.csprojResolveAssemblyReference.cache
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\obj\Release\QlikSenseTask.exe
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTask\QlikSenseTask\obj\Release\QlikSenseTask.pdb
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource\QlikSenseTask\bin\Release\QlikSenseTask.exe.config
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource\QlikSenseTask\obj\Release\QlikSenseTask.exe
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource\QlikSenseTask\obj\Release\QlikSenseTask.pdb
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.exe.config
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.exe
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.pdb
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.exe
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.pdb
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\Newtonsoft.Json.dll
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\Newtonsoft.Json.pdb
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\Newtonsoft.Json.xml
-C:\Users\msi\Documents\Visual Studio 2012\Projects\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.csprojResolveAssemblyReference.cache
-D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.exe.config
-D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.exe
-D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.pdb
-D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.exe
-D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.pdb
-D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\Newtonsoft.Json.pdb
-D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\Newtonsoft.Json.xml
-D:\Projects\Visual Studio\QlikSense Task\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.csprojResolveAssemblyReference.cache
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.exe.config
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.exe
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.pdb
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.exe
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\bin\Release\QlikSenseTask.pdb
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-2.X\QlikSenseTask\obj\Release\QlikSenseTask.csprojResolveAssemblyReference.cache
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\bin\Release\QlikSenseTask.exe.config
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\obj\Release\QlikSenseTask.exe
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\obj\Release\QlikSenseTask.pdb
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\bin\Release\QlikSenseTask.exe
-D:\Projects\Visual Studio\QlikSenseTask\QlikSenseTaskSource-3.X\QlikSenseTask\bin\Release\QlikSenseTask.pdb
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTask/QlikSenseTask/bin/Release/QlikSenseTask.exe.config
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTask/QlikSenseTask/bin/Release/QlikSenseTask.exe
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTask/QlikSenseTask/bin/Release/QlikSenseTask.pdb
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTask/QlikSenseTask/bin/Release/Newtonsoft.Json.dll
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTask/QlikSenseTask/bin/Release/Newtonsoft.Json.pdb
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTask/QlikSenseTask/bin/Release/Newtonsoft.Json.xml
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTask/QlikSenseTask/obj/Release/QlikSenseTask.csprojResolveAssemblyReference.cache
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTask/QlikSenseTask/obj/Release/QlikSenseTask.exe
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTask/QlikSenseTask/obj/Release/QlikSenseTask.pdb
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource/QlikSenseTask/bin/Release/QlikSenseTask.exe.config
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource/QlikSenseTask/obj/Release/QlikSenseTask.exe
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource/QlikSenseTask/obj/Release/QlikSenseTask.pdb
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/QlikSenseTask.exe.config
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource-2.X/QlikSenseTask/obj/Release/QlikSenseTask.exe
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource-2.X/QlikSenseTask/obj/Release/QlikSenseTask.pdb
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/QlikSenseTask.exe
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/QlikSenseTask.pdb
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/Newtonsoft.Json.dll
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/Newtonsoft.Json.pdb
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/Newtonsoft.Json.xml
+C:/Users/msi/Documents/Visual Studio 2012/Projects/QlikSenseTaskSource-2.X/QlikSenseTask/obj/Release/QlikSenseTask.csprojResolveAssemblyReference.cache
+D:/Projects/Visual Studio/QlikSense Task/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/QlikSenseTask.exe.config
+D:/Projects/Visual Studio/QlikSense Task/QlikSenseTaskSource-2.X/QlikSenseTask/obj/Release/QlikSenseTask.exe
+D:/Projects/Visual Studio/QlikSense Task/QlikSenseTaskSource-2.X/QlikSenseTask/obj/Release/QlikSenseTask.pdb
+D:/Projects/Visual Studio/QlikSense Task/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/QlikSenseTask.exe
+D:/Projects/Visual Studio/QlikSense Task/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/QlikSenseTask.pdb
+D:/Projects/Visual Studio/QlikSense Task/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/Newtonsoft.Json.pdb
+D:/Projects/Visual Studio/QlikSense Task/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/Newtonsoft.Json.xml
+D:/Projects/Visual Studio/QlikSense Task/QlikSenseTaskSource-2.X/QlikSenseTask/obj/Release/QlikSenseTask.csprojResolveAssemblyReference.cache
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/QlikSenseTask.exe.config
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-2.X/QlikSenseTask/obj/Release/QlikSenseTask.exe
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-2.X/QlikSenseTask/obj/Release/QlikSenseTask.pdb
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/QlikSenseTask.exe
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-2.X/QlikSenseTask/bin/Release/QlikSenseTask.pdb
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-2.X/QlikSenseTask/obj/Release/QlikSenseTask.csprojResolveAssemblyReference.cache
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/bin/Release/QlikSenseTask.exe.config
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/obj/Release/QlikSenseTask.exe
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/obj/Release/QlikSenseTask.pdb
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/bin/Release/QlikSenseTask.exe
+D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/bin/Release/QlikSenseTask.pdb
+/Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/bin/Release/QlikSenseTask.exe.config
+/Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/bin/Release/QlikSenseTask.exe
+/Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/bin/Release/QlikSenseTask.pdb
+/Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/obj/Release/QlikSenseTask.csproj.CoreCompileInputs.cache
+/Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/obj/Release/QlikSenseTask.csproj.CopyComplete
+/Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/obj/Release/QlikSenseTask.exe
+/Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/obj/Release/QlikSenseTask.pdb

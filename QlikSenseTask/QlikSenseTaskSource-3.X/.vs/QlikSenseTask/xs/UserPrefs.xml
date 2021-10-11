@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{0760E516-3DB9-4611-B3AB-2FC1F3C0F928}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../Library/Frameworks/Mono.framework/Versions/5.18.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets">
+    <Files>
+      <File FileName="QlikSenseTask/QRSNTLMWebClient.cs" Line="13" Column="17" />
+      <File FileName="QlikSenseTask/QRSwebclient.cs" Line="16" Column="28" />
+      <File FileName="QlikSenseTask/QlikSenseJSONHelper.cs" Line="8" Column="7" />
+      <File FileName="../../../../../../Library/Frameworks/Mono.framework/Versions/5.18.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2138" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QlikSenseTask" expanded="True">
+            <Node name="QlikSenseTask" expanded="True">
+              <Node name="References" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.QlikSenseTask PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
