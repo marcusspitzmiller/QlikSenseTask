@@ -41,6 +41,7 @@ D:/Projects/Visual Studio/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/bi
 /Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/bin/Release/QlikSenseTask.exe.config
 /Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/bin/Release/QlikSenseTask.exe
 /Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/bin/Release/QlikSenseTask.pdb
+/Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/obj/Release/QlikSenseTask.csprojAssemblyReference.cache
 /Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/obj/Release/QlikSenseTask.csproj.CoreCompileInputs.cache
 /Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/obj/Release/QlikSenseTask.csproj.CopyComplete
 /Users/msi/Projects/QlikSenseTask/QlikSenseTaskSource-3.X/QlikSenseTask/obj/Release/QlikSenseTask.exe

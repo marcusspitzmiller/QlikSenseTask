@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{0760E516-3DB9-4611-B3AB-2FC1F3C0F928}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="QlikSenseTask/QRSwebclient.cs">
     <Files>
-      <File FileName="QlikSenseTask/QRSwebclient.cs" Line="23" Column="44" />
+      <File FileName="QlikSenseTask/QRSwebclient.cs" Line="27" Column="76" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="QlikSenseTask" expanded="True">
-            <Node name="QlikSenseTask" expanded="True">
+            <Node name="QlikSenseTask" expanded="True" selected="True">
               <Node name="References" expanded="True" />
-              <Node name="QRSwebclient.cs" selected="True" />
             </Node>
           </Node>
         </State>

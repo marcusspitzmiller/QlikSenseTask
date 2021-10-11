@@ -24,6 +24,7 @@ namespace SenseBuilder
             _queryStringCollection = new NameValueCollection { { "xrfkey", "ABCDEFG123456789" } };
             ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
             //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.SystemDefault;
             serverURL = QRSserverURL;
 			
             ExecuteAs = "UserDirectory=" + Environment.UserDomainName + "; UserId=" + Environment.UserName;
