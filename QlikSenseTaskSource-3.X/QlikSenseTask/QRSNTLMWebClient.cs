@@ -214,7 +214,7 @@ namespace QVnextDemoBuilder
             }
             catch (WebException ex)
             {
-                logger.Log(LogLevel.Debug, "error: " + ex.Message);
+                logger.Log(LogLevel.Debug, "error: " + ex.Message+ " / " + ex.InnerException);
                 throw new Exception(ParseWebException(ex));
             }
         }
@@ -294,7 +294,7 @@ namespace QVnextDemoBuilder
             HttpWebRequest request = (HttpWebRequest)base.GetWebRequest(address);
             request.CookieContainer = QRSCookieContainer;
             request.Timeout = this.timeout;
-            
+           
             return request;
         }
 

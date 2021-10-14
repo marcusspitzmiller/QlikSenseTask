@@ -22,8 +22,7 @@ namespace SenseBuilder
             _client = new CertificateWebClient { Encoding = Encoding.UTF8 };
             _client.Certificate = GetClientCertificate();
             _queryStringCollection = new NameValueCollection { { "xrfkey", "ABCDEFG123456789" } };
-            ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
-            //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+          //  ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
             ServicePointManager.SecurityProtocol = SecurityProtocolType.SystemDefault;
             serverURL = QRSserverURL;
 			

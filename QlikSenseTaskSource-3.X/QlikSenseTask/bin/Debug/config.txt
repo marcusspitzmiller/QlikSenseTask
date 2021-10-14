@@ -1,2 +1,2 @@
--proxy:https://qtarchlabus04
+-proxy:https://localhost
 -wait:600
